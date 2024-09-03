@@ -1,27 +1,16 @@
-url: https://y7kim.github.io
+url: https://www.skypointfarm.com
 baseurl: ""
 
 # Site settings
 title: Skypoint Farm
-email: your-email@domain.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+email: hello@skypointfarm.com
+description: "Skypoint Farm is a full service Hunter Jumper facility in Newbury, Ohio."
 
 # Team names, titles and social links
 people:
-  - name: Tha Big P
-    pic: 1
-    position: Lead Designer
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: stack-overflow
-        url: #
-
-  - name: Larry Parker
-    pic: 2
-    position: Lead Marketer
+  - name: Redean Sheppard
+    pic: 4
+    position: Owner & Coach
     social:
       - title: twitter
         url: #
@@ -30,15 +19,26 @@ people:
       - title: linkedin
         url: #
 
-  - name: Diana Petersen
-    pic: 3
-    position: Lead Developer
+  - name: Stephanie Keough
+    pic: 5
+    position: Coach, IEA & IHSA
     social:
       - title: twitter
         url: #
       - title: facebook
         url: #
-      - title: google-plus
+      - title: linkedin
+        url: #
+
+  - name: Alex Shokat
+    pic: 6
+    position: Trainer
+    social:
+      - title: twitter
+        url: #
+      - title: facebook
+        url: #
+      - title: linkedin
         url: #
 
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
@@ -56,8 +56,8 @@ social:
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 3481 Melrose Place
-  - line: Beverly Hills, CA 90210
+  - line: 10810 Music Street
+  - line: Newbury, OH 44065
 
 # Build settings
 markdown: kramdown
