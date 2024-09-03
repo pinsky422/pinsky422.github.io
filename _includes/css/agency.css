@@ -278,6 +278,12 @@ header {
     -o-background-size: cover;
 }
 
+.fa-stack.services {
+    width: 4em;
+    height: 4em;
+    line-height: 4em;
+}
+
 header .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
@@ -350,7 +356,7 @@ section h3.section-subheading {
 }
 
 .service-heading {
-    margin: 15px 0;
+    margin: 25px 0;
     text-transform: none;
 }
 
