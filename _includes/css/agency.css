@@ -18,6 +18,10 @@ body {
     color: #{{ site.data.template.color.primary }};
 }
 
+.pad-b {
+    padding-bottom: 50px;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
