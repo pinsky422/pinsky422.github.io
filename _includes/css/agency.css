@@ -747,6 +747,7 @@ footer span.copyright {
 }
 
 footer ul.quicklinks {
+    margin-top: 10px;
     margin-bottom: 0;
     text-transform: uppercase;
     text-transform: none;
@@ -757,7 +758,7 @@ footer ul.quicklinks {
 footer ul.quicklinks > li {
     list-style-type: none;
     line-height: 24px;
-    text-align: left;
+    /* text-align: left; */
 }
 
 ul.social-buttons {
