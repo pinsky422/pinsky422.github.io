@@ -7,6 +7,7 @@ email: hello@skypointfarm.com
 description: "Skypoint Farm is a full service Hunter Jumper facility in Newbury, Ohio."
 
 # Team names, titles and social links
+# Pics need to go in img/team and be sized to 225x225px!
 people:
   - name: Redean Sheppard
     pic: 4
@@ -22,6 +23,7 @@ people:
   - name: Stephanie Keough
     pic: 5
     position: Coach, IEA & IHSA
+    # You can comment these out like so or delete the socials lines if you don't want them.
     # social:
     #   - title: twitter
     #     url: #
@@ -30,8 +32,8 @@ people:
     #   - title: linkedin
     #     url: #
 
-  - name: Alex Shokat
-    pic: 6
+  - name: New Lady Trainer
+    pic: 3
     position: Trainer
     social:
       - title: twitter
