@@ -13,10 +13,14 @@
                     </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="#">Privacy Policy</a>
+                    <ul class="quicklinks">
+                        <li><i class="fa fa-map-marker"></i> &nbsp;
+                            {% for address in site.address %}
+                                {{ address.line }}
+                            {% endfor %}
                         </li>
-                        <li><a href="#">Terms of Use</a>
+                        <li><i class="fa fa-phone"></i> &nbsp;
+                            {{ site:phone }}
                         </li>
                     </ul>
                 </div>

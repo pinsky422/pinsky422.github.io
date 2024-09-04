@@ -41,17 +41,28 @@ people:
       - title: linkedin
         url: #
 
-# Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
+#
+# Site Footer Information
+#
+
+# Social networks & contact methods
 social:
-  - title: twitter
-    url: http://twitter.com/jekyllrb
   - title: facebook
     url: https://www.facebook.com/skypointfarm/
+  - title: envelope-o
+    url: mailto:hello@skypointfarm.com
+  - title: phone
+    url: tel:+1-724-777-3344
+  - title: map-marker
+    url: https://maps.app.goo.gl/ZvsC7kedPNoGEg2z7
 
 # Postal address (add as many lines as necessary)
 address:
-  - line: 10810 Music Street
+  - line: 10810 Music Street,
   - line: Newbury, OH 44065
+
+# Company phone number
+phone: +1 (724) 777-3344
 
 # Build settings
 markdown: kramdown
