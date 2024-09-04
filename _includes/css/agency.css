@@ -290,12 +290,12 @@ header {
 }
 
 header .intro-text {
-    padding-top: 100px;
-    padding-bottom: 50px;
+    padding-top: 140px;
+    padding-bottom: 80px;
 }
 
 header .intro-text .intro-lead-in {
-    margin-bottom: 25px;
+    margin-bottom: 50px;
     font-family: {{ site.data.template.font.secondary }};
     font-size: 22px;
     font-style: italic;
@@ -304,7 +304,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 50px;
@@ -316,19 +316,19 @@ header .intro-text .intro-heading {
 @media(min-width:768px) {
     header .intro-text {
         padding-top: 300px;
-        padding-bottom: 200px;
+        padding-bottom: 150px;
     }
 
     header .intro-text .intro-lead-in {
-        margin-bottom: 25px;
+        margin-bottom: 180px;
         font-family: {{ site.data.template.font.secondary }};
-        font-size: 40px;
+        font-size: 32px;
         font-style: italic;
-        line-height: 40px;
+        line-height: 32px;
     }
 
     header .intro-text .intro-heading {
-        margin-bottom: 50px;
+        margin-bottom: 15px;
         text-transform: uppercase;
         font-family: {{ site.data.template.font.primary }};
         font-size: 75px;
