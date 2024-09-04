@@ -22,13 +22,13 @@ people:
   - name: Stephanie Keough
     pic: 5
     position: Coach, IEA & IHSA
-    social:
-      - title: twitter
-        url: #
-      - title: facebook
-        url: #
-      - title: linkedin
-        url: #
+    # social:
+    #   - title: twitter
+    #     url: #
+    #   - title: facebook
+    #     url: #
+    #   - title: linkedin
+    #     url: #
 
   - name: Alex Shokat
     pic: 6
@@ -46,6 +46,11 @@ people:
 #
 
 # Social networks & contact methods
+#
+# Here, the "title" is really the name of the FontAwesome icon you want. (https://fontawesome.com/)
+# e.g., "facebook" is a FontAwesome "fa-facebook" icon, and "phone" is the "fa-phone" icon.
+# You can search through `/css/font-awesome/css/font-awesome.css` for the names of other icons.
+# (Note that the FontAwesome website has new and different icons that this theme doesn't have.)
 social:
   - title: facebook
     url: https://www.facebook.com/skypointfarm/
