@@ -4,8 +4,8 @@ subtitle: IHSA Teams
 layout: default
 modal-id: 1
 date: 2016-04-18
-img: gallery-test-image.jpg
-thumbnail: gallery-test-image.jpg
+img: open-house.jpg
+thumbnail: open-house-thumb.png
 alt: image-alt
 project-date: April 2016
 client: Kent State

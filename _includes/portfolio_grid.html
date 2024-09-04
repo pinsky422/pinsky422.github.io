@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="row">
-            {% for post in site.posts %}
+            {% for post in site.posts limit:6 %}
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a
                     href="#portfolioModal{{ post.modal-id }}"
@@ -23,7 +23,11 @@
                         </div>
                     </div>
                     <img
+                        {% if post.thumbnail %}
                         src="img/portfolio/{{ post.thumbnail }}"
+                        {% else %}
+                        src="img/portfolio/placeholder-thumb.png"
+                        {% endif %}
                         class="img-responsive img-centered"
                         alt=""
                     />
