@@ -20,7 +20,12 @@ We also need a "form submitted" landing page for after a user submits the form.
         </div>
         <div class="row">
             <div class="col-lg-12">
-                <form name="sentMessage" id="contactForm" novalidate>
+
+                <!-- BEGIN CONTACT FORM -->
+                <!-- ** for setup, see: https://un-static.com/ ** -->
+
+                <form name="sentMessage" id="contactForm" method="post"
+                    action="https://forms.un-static.com/forms/YOUR_ENDPOINT_REFERENCE" novalidate>
                     <div class="row">
                         <div class="col-md-6">
                             <div class="control-group form-group">
@@ -75,7 +80,13 @@ We also need a "form submitted" landing page for after a user submits the form.
                             <button type="submit" class="btn btn-xl">Send Message</button>
                         </div>
                     </div>
+                    <div class="text-right text-muted">
+                        <p><small>Powered by <a rel="nofollow" href="Un-static Forms">Un-static Forms</a></small></p>
+                    </div>
                 </form>
+
+                <!-- END CONTACT FORM -->
+
             </div>
         </div>
     </div>
